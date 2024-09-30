@@ -15,7 +15,7 @@ body {
     background-position: center; /* Fixando nossa imagem ao centro */
 }
 .container {
-    width: 420px; /* Limitar a largura do container */
+    width: 30%; /* Limitar a largura do container */
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
@@ -116,4 +116,34 @@ h1 {
 
 .link-register a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 50%; /* Limitar a largura do container */
+    }
+
+    .input-remember {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 50%; /* Limitar a largura do container */
+    }
+
+    .input-remember {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 85%; /* Limitar a largura do container */
+    }
+
+    .input-remember {
+        font-size: 12px;
+    }
 }
